@@ -375,6 +375,8 @@ li {
             align-items: center;
             gap: 5px;
             color: #5B5B5B;
+            cursor: pointer;
+            transition: 0.3s ease;
         }
 
         &_body {
@@ -382,7 +384,7 @@ li {
             font-size: 15px;
             color: #717171;
             max-height: 0;
-            transition: 0.5s ease;
+            transition: 0.8s ease;
             overflow: hidden;
         }
     }
@@ -462,6 +464,7 @@ li {
     &_btn {
         &_mobile {
             display: none;
+            max-width: 90%;
         }
     }
 
@@ -610,7 +613,7 @@ li {
     width: 1000px;
     max-width: 90%;
     max-height: 90%;
-    overflow: scroll;
+    overflow: auto;
     background: #fff;
     display: flex;
     align-items: flex-end;
@@ -628,6 +631,10 @@ li {
         align-items: center;
         justify-content: center;
         display: none;
+
+        &.show {
+            display: flex;
+        }
     }
 
     &_content {
@@ -636,5 +643,12 @@ li {
     }
     &-img {
         width: 50%;
+    }
+
+    &_video {
+        padding: 0;
+        video {
+            width: 100%;
+        }
     }
 }

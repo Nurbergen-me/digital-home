@@ -18,17 +18,17 @@
                     <img src="img/logo.svg" alt="logo" class="header_logo">
                     <ul class="header_menu">
                         <li>
-                            <a href="#" class="header_menu_item">
+                            <a href="#about" class="header_menu_item">
                                 Переезд в Казахстан
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="header_menu_item">
+                            <a href="#services" class="header_menu_item">
                                 Наши услуги
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="header_menu_item">
+                            <a href="#contacts" class="header_menu_item">
                                 Контакты
                             </a>
                         </li>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="header_box">
                     <img src="img/wooden-stamp.png" alt="wooden stamp" class="header_box_img">
-                    <button class="btn">
+                    <button class="header_btn btn">
                         рассчитать стоимость
                     </button>
                 </div>
@@ -151,7 +151,7 @@
                                 Миграционные услугие
                             </li>
                         </ul>
-                        <button class="btn services_btn">
+                        <button class="btn services_btn services_btn_desktop">
                             ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
                         </button>
                     </div>
@@ -193,7 +193,7 @@
                         Оставляйте <span>заявку</span> и мы обязательно <span>свяжемся с вами.</span>
                     </div>
                 </div>
-                <div class="footer_wrap">
+                <div class="footer_wrap" id="contacts">
                     <h3 class="footer_title">
                         Наши контакты
                     </h3>
@@ -259,8 +259,8 @@
                 </div>
             </div>
         </footer>
-        <div class="modal-wrap">
-            <form class="modal">
+        <div class="modal-wrap" id="modalForm">
+            <form class="modal" id="modal1">
                 <div class="modal_content">
                     <h3 class="footer_offer_title">
                         Получи <span>профессиональную помощь и консультацию</span>
@@ -293,6 +293,14 @@
                 <img class="modal-img" src="img/modal-img.png" alt="person">
             </form>
         </div>
+        <div class="modal-wrap" id="modalVideo">
+            <div class="modal modal_video" id="modal2">
+                <video id="video" controls>
+                    <source src="digital-home.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
