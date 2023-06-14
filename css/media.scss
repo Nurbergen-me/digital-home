@@ -170,6 +170,10 @@
             gap: 55px;
             position: relative;
 
+            &_get, &_desc {
+                text-align: center;
+            }
+
             &_content {
                 margin: 0 auto;
             }

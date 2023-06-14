@@ -134,6 +134,9 @@
     gap: 55px;
     position: relative;
   }
+  .footer_offer_get, .footer_offer_desc {
+    text-align: center;
+  }
   .footer_offer_content {
     margin: 0 auto;
   }
