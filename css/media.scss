@@ -391,6 +391,12 @@
             &_get {
                 max-width: 100%;
             }
+
+            &_socials {
+                .footer_item {
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
     .modal {

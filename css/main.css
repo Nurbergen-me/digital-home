@@ -520,6 +520,16 @@ li {
   font-size: 16px;
   color: #465D81;
 }
+.footer_offer_socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.footer_offer_socials .footer_item {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
 
 .modal {
   width: 1000px;

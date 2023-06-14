@@ -607,6 +607,20 @@ li {
             }
         }
     }
+
+    &_offer {
+        &_socials {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            .footer_item {
+                margin-top: 0;
+                margin-bottom: 35px;
+            }
+        }
+    }
 }
 
 .modal {
