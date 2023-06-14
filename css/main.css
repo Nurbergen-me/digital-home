@@ -318,6 +318,9 @@ li {
 .about_tab.active .about_tab_header {
   margin-bottom: 22px;
 }
+.about_tab.active .about_tab_header img {
+  transform: rotate(180deg);
+}
 .about_tab.active .about_tab_body {
   max-height: 800px;
 }
@@ -328,6 +331,9 @@ li {
   color: #5B5B5B;
   cursor: pointer;
   transition: 0.3s ease;
+}
+.about_tab_header img {
+  transition: 0.5s ease;
 }
 .about_tab_body {
   padding: 0;
@@ -537,9 +543,6 @@ li {
   max-height: 90%;
   overflow: auto;
   background: #fff;
-  display: flex;
-  align-items: flex-end;
-  padding: 50px 50px 0;
 }
 .modal-wrap {
   position: fixed;
@@ -565,8 +568,13 @@ li {
 .modal_content .footer_offer_content {
   margin: 0 auto;
 }
+.modal_info {
+  display: flex;
+  padding: 18px 50px 0;
+}
 .modal-img {
   width: 50%;
+  margin-top: auto;
 }
 .modal_video {
   padding: 0;
